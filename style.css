@@ -1,0 +1,33 @@
+body{
+    background-color: black;
+    color: blue;
+    font-family: 'Bungee Spice', cursive;
+}
+.title{
+    color: blue;
+}
+#dilli{
+    background-color: black;
+}
+button{
+    background-color: darkblue;
+    font-size: 20px;
+    border-radius: 12px;
+    animation-name: example ;
+    animation-duration: 2.1s;
+    animation-iteration-count: infinite;
+    
+  }
+
+
+
+  @keyframes example {
+
+    from {box-shadow: 1px 2px 38px grey;}
+    to {box-shadow: 1px 2px 38px white;}
+  }
+.sticky_footer{
+    bottom: 0;
+    background-color: gray;
+    text-align: center;
+}
